@@ -1,6 +1,6 @@
 import Foundation
 
-class Operation<T: RequestTarget>: NSOperation {
+class Operation<T: RequestTarget>: Foundation.Operation {
     let target: T
     
     init(target: T) {
